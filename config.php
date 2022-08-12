@@ -16,7 +16,7 @@ class Webgrind_Config extends Webgrind_MasterConfig {
      * Writable dir for information storage.
      * If empty, will use system tmp folder or xdebug tmp
      */
-    static $storageDir = '';
+    static $storageDir = '/var/www/vhosts/greenhousestores.co.uk/tmp';
     static $profilerDir = '/var/www/vhosts/greenhousestores.co.uk/tmp';
 
     /**
@@ -30,7 +30,7 @@ class Webgrind_Config extends Webgrind_MasterConfig {
      */
     static $graphImageType = 'svg';
 
-    static $defaultTimezone = 'Europe/Copenhagen';
+    static $defaultTimezone = 'Europe/London';
     static $dateFormat = 'Y-m-d H:i:s';
     static $defaultCostformat = 'percent'; // 'percent', 'usec' or 'msec'
     static $defaultFunctionPercentage = 90;
